@@ -1,1 +1,10 @@
+pandas==2.2.3
+numpy==2.1.1
+yfinance==0.2.43
+plotly==5.24.1
+streamlit==1.39.0
+alpaca-trade-api==5.13.2
+python-dotenv==1.0.1
+schedule==1.2.0
+sqlalchemy==2.2.5
 
