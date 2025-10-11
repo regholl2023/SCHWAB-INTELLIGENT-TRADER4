@@ -1,10 +1,4 @@
-# quantbot/broker.py
-"""
-Minimal Broker class for this paper trading bot.
-- Provides a simple simulator when MODE != 'ALPACA'
-- Uses Alpaca paper API when MODE == 'ALPACA' and keys are available
-Exports: Broker  (class)
-"""
+
 
 import os
 from decimal import Decimal, ROUND_HALF_UP
