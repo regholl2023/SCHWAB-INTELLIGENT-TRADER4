@@ -1,12 +1,3 @@
-# quantbot/runner.py
-"""
-Runner for SMA/EMA crossover strategy.
-
-- Uses quantbot.broker.Broker (SIM or Alpaca depending on MODE in .env)
-- Keeps small local price history to compute SMA/EMA
-- On crossover -> executes a market order sized by ALLOC_PCT of account equity
-- step() returns dict: {'ts','signal','price','equity'}
-"""
 
 import os
 from datetime import datetime, timezone
